@@ -1,0 +1,162 @@
+{
+  "name": "customer",
+  "plural": "customers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "preNameTh": {
+      "type": "string",
+      "required": true
+    },
+    "firstNameTh": {
+      "type": "string",
+      "required": true
+    },
+    "lastNameTh": {
+      "type": "string",
+      "required": true
+    },
+    "birthDate": {
+      "type": "date",
+      "required": true
+    },
+    "cAddress1": {
+      "type": "string",
+      "required": true
+    },
+    "cSubdistrict": {
+      "type": "string",
+      "required": true
+    },
+    "cDistrict": {
+      "type": "string",
+      "required": true
+    },
+    "cProvince": {
+      "type": "string",
+      "required": true
+    },
+    "cPostCode": {
+      "type": "string",
+      "required": true
+    },
+    "cTelNo": {
+      "type": "string",
+      "required": true
+    },
+    "cMobileNo": {
+      "type": "string",
+      "required": true
+    },
+    "cEmail": {
+      "type": "string"
+    },
+    "bAddress1": {
+      "type": "string",
+      "required": true
+    },
+    "bSubdistrict": {
+      "type": "string",
+      "required": true
+    },
+    "bDistrict": {
+      "type": "string",
+      "required": true
+    },
+    "bProvince": {
+      "type": "string",
+      "required": true
+    },
+    "bPostCode": {
+      "type": "string",
+      "required": true
+    },
+    "bTelNo": {
+      "type": "string",
+      "required": true
+    },
+    "stayYear": {
+      "type": "number",
+      "required": true
+    },
+    "stayMonth": {
+      "type": "number",
+      "required": true
+    },
+    "assetType": {
+      "type": "string",
+      "required": true
+    },
+    "stayType": {
+      "type": "string",
+      "required": true
+    },
+    "education": {
+      "type": "string",
+      "required": true
+    },
+    "maritalStatus": {
+      "type": "string",
+      "required": true
+    },
+    "spPreNameTh": {
+      "type": "string",
+      "required": true
+    },
+    "spFirstNameTh": {
+      "type": "string",
+      "required": true
+    },
+    "spLastNameTh": {
+      "type": "string",
+      "required": true
+    },
+    "spWork": {
+      "type": "string",
+      "required": true
+    },
+    "spOccupation": {
+      "type": "string",
+      "required": true
+    },
+    "spSalary": {
+      "type": "number",
+      "required": true
+    },
+    "spTelNo": {
+      "type": "string",
+      "required": true
+    },
+    "spMobileNo": {
+      "type": "string",
+      "required": true
+    },
+    "contactPreNameTh": {
+      "type": "string",
+      "required": true
+    },
+    "contactFirstNameTh": {
+      "type": "string",
+      "required": true
+    },
+    "contactLastNameTh": {
+      "type": "string",
+      "required": true
+    },
+    "relation": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
