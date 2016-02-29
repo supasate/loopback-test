@@ -33,7 +33,7 @@
     "public": false
   },
   "Customer": {
-    "dataSource": "db",
+    "dataSource": "postgresqlDs",
     "public": true
   }
 }
