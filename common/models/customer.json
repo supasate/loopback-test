@@ -1,6 +1,6 @@
 {
-  "name": "customer",
-  "plural": "customers",
+  "name": "Customer",
+  "plural": "Customers",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
